@@ -1,0 +1,134 @@
+body {
+    background-image: url("../img/fundo/Wallweb.jpg");
+    background-size: cover;
+
+}
+
+#login {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    font-family: Georgia, Times, 'Times New Roman';
+
+}
+
+
+#padrao {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    color: #e1e1e1;
+    font-family: Georgia, Times, 'Times New Roman';
+
+}
+
+ label.incluir {
+                        display: inline-block;
+                        width: 90px;
+                }
+                
+ label.titulo {
+                        display: inline-block;
+                        width: 250px;
+                }
+
+.card {
+
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 35px;
+    border-radius: 50px;
+    margin-top: 23px;
+    width:280px;
+
+}
+
+
+.card-novo {
+
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 35px;
+    border-radius: 50px;
+    margin-top: 23px;
+    width:680px;
+
+}
+
+.card-exibe {
+
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 35px;
+    border-radius: 50px;
+    margin-top: 23px;
+    width:580px;
+
+}
+
+.card-header {
+
+    padding-bottom: 50px;
+    opacity: 0.8;
+    color: #fff;
+
+}
+
+.card-header::after {
+
+    width: 70px;
+    height: 1px;
+    background-color: #fff;
+    display: block;
+    margin-top: -17px;
+    margin-left: -5px;
+
+}
+
+.card-content  {
+
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+
+}
+
+.card-area {
+
+    display: relative;
+    flex-direction: column;
+    padding: 0px;
+    color: #e1e1e1;
+
+}
+
+.card-area input {
+
+    margin-top: 50px;
+    padding: 5px;
+    background-color: transparent;
+    border:none;
+    border-bottom: 2px solid #e1e1e1;
+    outline: none;
+    color: rgb(255, 255, 255);
+
+}
+
+.card-footer {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.card-footer .submit{
+
+    width: 35%;
+    height: 30px;
+    background-color: #ef9801;
+    border-radius:10px;
+    border:none;
+    color:#e1e1e1;
+    margin: 1px;
+
+}
