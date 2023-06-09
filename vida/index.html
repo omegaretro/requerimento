@@ -1,0 +1,57 @@
+<html lang="pt-BR">
+ <head> 
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">  
+ </head>
+
+<body bgcolor ="black">
+ <script type = "text/javascript">
+   
+ 
+    function mascaraDeTelefone( telefone ){
+                const textoAtual = telefone.value;
+                const isCelular = textoAtual.length === 11;
+                let textoAjustado;
+                if(isCelular) {
+                      const parte1 = textoAtual.slice(0,2);
+                      const parte2 = textoAtual.slice(2,7);
+                      const parte3 = textoAtual.slice(7,11);
+                      textoAjustado = `(${parte1})${parte2}-${parte3}`;  //usar crase     
+                } else {
+                      const parte1 = textoAtual.slice(0,2);
+                      const parte2 = textoAtual.slice(2,6);
+                      const parte3 = textoAtual.slice(6,10);
+                      textoAjustado = `(${parte1})${parte2}-${parte3}`; 
+                }
+
+               telefone.value = textoAjustado;
+    }
+
+ 
+     </script>
+<div  class="box-formulario" align = "center">
+    <div class="formulario">
+ 
+      <img src = "img/basevida.png">
+      <form method = "post" action ="objeto.php" class="card">
+           <span>
+                 <input type = "text" name="nome" required placeholder = "Nome" class="input-card"/>
+            </span>
+            <span>
+                   <input name="para" type = "text" required placeholder = "E-mail" class="input-card"/>
+            </span>
+            <span>
+                     <input name="watts" type = "text" required placeholder = "Wattsapp (99)99999-9999" onblur = "mascaraDeTelefone(this)" class = "input-card">
+            </span>
+             <span>
+                  <input name="insta" type = "text"   required placeholder = "Instagram" class="input-card"/>
+           </span>
+           <div class="box-pulse">
+                  <input type = "submit" name = "Salvar" value = "Conhecer os serviços" class="btn-submit"/>
+           </div>
+      </form>
+    </div>
+  </div>
+ 
+</body>
+</html>
