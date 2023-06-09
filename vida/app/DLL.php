@@ -1,4 +1,5 @@
-<?php
+<?php teste de git
+//
 function email($para){
                include "cons.php";
                $assunto = "Nossos serviços";  
