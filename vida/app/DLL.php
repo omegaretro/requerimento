@@ -1,4 +1,4 @@
-<?php teste de git
+<?php
 //TOMEI FLAG NO GIT
 function email($para){
                include "cons.php";
