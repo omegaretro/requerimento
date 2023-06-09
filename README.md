@@ -1,2 +1,2 @@
 # requerimento
-pasta de desenvolvimento de atividade de alunos
+Este projeto é um exemplo de uso do Git
