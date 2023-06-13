@@ -1,4 +1,5 @@
 <?php
+// teste de commit
 If($_SERVER['SERVER_NAME'] == 'localhost'){
                $server = "localhost";
                $user = "root";
