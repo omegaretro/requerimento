@@ -20,7 +20,7 @@ If($_SERVER['SERVER_NAME'] == 'localhost'){
        $localmail = "www.agenciavidadigital.com.br/";
        
 }
- 
+ //JHON
 ?>
 
 
